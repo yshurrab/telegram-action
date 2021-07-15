@@ -11,6 +11,9 @@ inputs:
   status:
     required: false
     description: 'Job status'
+  pr_template:
+    required: false
+    description: 'PR template'
 runs:
   using: 'node12'
   main: 'dist/main.js'
